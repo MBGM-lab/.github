@@ -29,7 +29,7 @@ This organization hosts software, models, datasets, and other resources develope
 
 ### ddigitize
 
-[ddigitize](https://github.com/MBGM-lab/ddigitize) ([live app](https://MBGM-lab.github.io/ddigitize/)) is a browser-based tool for extracting numerical data from scientific figures. Rather than recovering discrete points or piecewise-linear traces, it represents curves as smooth, C¹-continuous cubic Bézier chains. Users place a few anchor points along a trace and the tool fits a kink-free curve through them, which can be fine-tuned interactively using control handles. Based on user-defined axes, pixel coordinates are translated into physical measurements. The tool supports multiple named traces per figure, full undo/redo, session save and resume, and export to JSON and CSV. No installation is required — it runs entirely in the browser with no server component.
+[ddigitize](https://github.com/MBGM-lab/ddigitize) ([live app](https://MBGM-lab.github.io/ddigitize/)) is a browser-based tool for extracting numerical data from scientific figures. Rather than recovering discrete points or piecewise-linear traces, it represents curves as smooth cubic Bézier chains. Users place a few anchor points along a trace and the tool fits a kink-free curve through them, which can be fine-tuned interactively using control handles. Based on user-defined axes, pixel coordinates are translated into physical measurements. The tool supports multiple named traces per figure, full undo/redo, session save and resume, and export to JSON and CSV. No installation is required — it runs entirely in the browser with no server component.
 
 ### treem
 
